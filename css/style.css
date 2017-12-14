@@ -1,0 +1,50 @@
+#header {
+	background-color: #60060b;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	font-family: 'Pacifico', cursive;
+}
+
+#headerTwo {
+	background-color: #60060b;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+#buttonfont {
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+}
+
+label {
+	font-size: 18px;
+}
+
+#feeling {
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#feelingsSearch {
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+}
+
+#gifArea {
+	clear: both;
+	display: inline;
+	flex-wrap: wrap;
+}
+
+.feelingsGiphy {
+	padding: 2px;
+	width: 80%;
+}

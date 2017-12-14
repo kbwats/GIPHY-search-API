@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tell Us How You Really Feel</title>
+
+	<meta charset="utf-8">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Bootstrap CDN -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+
+	<!-- jQuery CDN -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+</head>
+
+<body id="wholeThing">
+	
+	<!-- Header -->
+	<div class="jumbotron" id="header">
+  		<h1>Tell Us How You Really Feel</h1>
+	</div><div class='jumbotron' id="headerTwo">
+  		<h4>Click the button with your current feeling to display GIFs so that you may show the world. <br>Click the GIFs to see them play!<br><br>Type to add more feelings!</h4>
+	</div>
+
+	<!-- Search Box -->
+	<form class="form-inline" id="feelingsSearch">
+  		<div class="form-group">
+    	<label for="feelingsInput">Add More Feelings</label>
+    	<input type="text" id="feelingsInput">
+  		</div>
+  	<!-- Button triggers feeling to be added -->
+  		<input id="addFeeling" type="submit" value="submit">
+	</form>
+
+	<!-- Feelings Buttons -->
+	<div id="buttonfont">
+	<div class="row">
+  		<div class="container">
+    		<div class="btn-group inline pull-left">
+      			<button class="btn btn-default" id="feeling" data-search="Happy">Happy</button>
+      			<button class="btn btn-default" id="feeling" data-search="Angry">Angry</button>
+      			<button class="btn btn-default" id="feeling" data-search="Confused">Confused</button>
+      			<button class="btn btn-default" id="feeling" data-search="Sad">Sad</button>
+      			<button class="btn btn-default" id="feeling" data-search="Frustrated">Frustrated</button>
+      			<button class="btn btn-default" id="feeling" data-search="Amazed">Amazed</button>
+      			<button class="btn btn-default" id="feeling" data-search="Satisfied">Satisfied</button>
+      			<button class="btn btn-default" id="feeling" data-search="Annoyed">Annoyed</button>
+      			<button class="btn btn-default" id="feeling" data-search="Embarrassed">Embarrassed</button>
+      			<button class="btn btn-default" id="feeling" data-search="Guilty">Guilty</button>
+      			<button class="btn btn-default" id="feeling" data-search="Remorseful">Remorseful</button>
+ 				<div id="myButtons"></div>
+    		</div> <!--end of buttons -->
+  		</div> <!--end of container -->
+	</div> <!--end of row -->
+	</div>
+
+	<!-- Display Area -->
+	<div class="row">
+  		<div class="container">
+      		<span><div id="gifArea"></div></span>
+  		</div> <!--end of container -->
+	</div> <!-- end of row  -->
+
+	<!-- JavaScript -->
+	<script type="text/javascript" src="assets/javascript/app.js"</script>
+	 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+</body>
+</html>
