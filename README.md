@@ -1,0 +1,1 @@
+# GIPHY-search-API
