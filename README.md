@@ -1,6 +1,6 @@
 # GIPHY-search-API
 
-<img src="https://github.com/kbwats/ReadMe/blob/master/api.png">
+A web application that uses the GIPHY API to populate the page with gifs of your choice by clicking a button.
 
 ## Technologies Used
 
